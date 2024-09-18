@@ -35,13 +35,17 @@
     },
     "autoload": {
         "psr-4": {
-            "IlluminateAgnostic\\Str\\": "src/",
-            "IlluminateAgnostic\\Str\\Tests\\": "tests/"
+            "IlluminateAgnostic\\Str\\": "src/"
         },
         "files": [
             "src/Support/helpers.php",
             "src/Support/alias.php"
         ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IlluminateAgnostic\\Str\\Tests\\": "tests/"
+        }
     },
     "scripts": {
         "test": [
